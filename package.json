@@ -18,7 +18,7 @@
     "openai": "^4.20.1",
     "twilio": "^4.19.0",
     "@deepgram/sdk": "^3.0.0",
-    "@elevenlabs/elevenlabs-js": "^0.8.2",
+    "@elevenlabs/elevenlabs-js": "^2.22.0",
     "ws": "^8.14.2",
     "zod": "^3.22.4",
     "class-variance-authority": "^0.7.0",
