@@ -42,12 +42,12 @@ export async function GET() {
   console.log('[GET /api/agents] Merging:', { dbAgents: dbAgents.length, memoryAgents: memoryAgents.length })
   
   // Add database agents first
-  dbAgents.forEach(agent => {
+  dbAgents.forEach((agent: any) => {
     agentMap.set(agent.id, agent)
   })
   
   // Override with memory agents (if they exist) - includes global storage
-  memoryAgents.forEach(agent => {
+  memoryAgents.forEach((agent: any) => {
     agentMap.set(agent.id, agent)
   })
 
